@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    image: 10.95.113.30/sarvjeet.chhinna/pystackapp
+    build: .
+    ports:
+      - "8000:8000"
+  redis:
+    image: redis:alpine
