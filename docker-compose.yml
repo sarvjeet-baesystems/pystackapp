@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: 10.95.113.30/sarvjeet.chhinna/pystackapp
+    image: 10.95.113.30/sarvjeet.chhinna/pystackapp:${GIT_ID}
     build: .
     ports:
       - "8000:8000"
